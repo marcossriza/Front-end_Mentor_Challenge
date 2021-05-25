@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	height: 100vh;
+	font-family: 'Karla', sans-serif;
+line-height: 25px;
+}
+
+
+
+.attribution {
+ font-size: 11px; text-align: center;
+ }
+  
+ .attribution a {
+ color: hsl(228, 45%, 44%); 
+}
+
+.showcase{
+	padding: 25px;
+	 background: #FFFFFFff;
+	
+}
+
+.showcase h3{
+color: hsl(179, 62%, 43%);
+padding-bottom: 15px;
+}
+
+.showcase .guarantee{
+	color: hsl(71, 73%, 54%);
+
+}
+
+.showcase p{
+	color: hsl(218, 22%, 67%);
+padding-top: 15px;
+}
+
+.Subscription{
+	background: hsl(179, 62%, 43%);
+	padding: 25px;
+	color: #fffffc;
+}
+
+.Subscription h3{
+	font-weight: 700;
+	
+}
+
+
+
+
+
+.Subscription .per{
+	padding: 15px 0 15px 0;
+	color: hsl(204, 43%, 93%);
+}
+
+.Subscription .dollar{
+	font-size: 2rem;
+	font-weight: 700;
+color: #fffffc;
+
+}
+
+.Subscription button{
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+	 box-shadow: 0 10px 6px -3px #2a9d8f;
+	 background-color: hsl(71, 73%, 54%);
+	 color: #fffffc;
+	 width: 100%;
+	margin-top: 25px;
+	margin-bottom: 5px
+}
+
+.Why-us{
+	background-color: #4ABEBCff;
+	padding: 25px;
+	color: #C7EDEDff;
+}
+
+.Why-us h3{
+	color: #EAFEFEff;
+	padding-bottom: 15px;
+}
+
+.Why-us p{
+	margin-right: 75px;
+text-align: unset;
+}
+
+
+/*Media Queries */
+ @media screen and (min-width: 1024px){
+body{
+	font-size: 1.3rem;
+line-height: 27px;
+overflow-y: hidden;
+height: 100vh;
+}
+	 	.showcase{
+	 		padding: 60px;
+	 }
+
+.Subscription{
+	display: inline-block;
+	width: 50vw;
+	height: 53vh;
+padding: 60px;
+
+}
+
+.Subscription .per{
+	padding: 25px 0 10px 0;
+}
+
+.Subscription button{
+	padding: 20px;
+	margin-top: 35px;
+}
+
+.Why-us{
+	float: right;
+		width: 50vw;
+		height: 53vh;
+		text-align: justify-all;
+padding: 60px;
+
+}
+.Why-us p{
+	ma-right: 100px;
+
+}
+.clear{
+	clear: both;
+}
+}
+
+@media screen and (max-width: 1440px){
+body{
+	height: 100vh;
+}
+
+	.Why-us{
+	float: right;
+	right: 0;
+	top: 31.7%;
+	font-size: 1.5rem;
+line-height: 40px;
+padding: 60px;
+}
+.clear{
+	clear: both;
+}
+
+.Subscription{
+	padding: 60px;
+	font-size: 1.5rem;
+	line-height: 40px;
+}
+
+.Subscription button{
+	margin-top: 60px;
+}
+
+.showcase{
+
+	height: 40vh;
+padding: 60px;
+font-size: 1.5rem;
+line-height: 40px;
+}
+	}
+
+@media screen and (max-width: 768px){
+	.showcase, .Subscription, .Why-us{
+		padding: 40px;
+
+	}
+}
